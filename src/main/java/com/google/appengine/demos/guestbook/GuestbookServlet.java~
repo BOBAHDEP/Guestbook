@@ -12,9 +12,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class GuestbookServlet extends HttpServlet {
-
-  public void say(){}
-
   @Override
   public void doGet(HttpServletRequest req, HttpServletResponse resp)
       throws IOException {
